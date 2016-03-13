@@ -1,7 +1,7 @@
 #products{
 	.product{
 		background-color: $mint-cream;
-		box-shadow: 0px 6px 6px rgba(0,0,0,0.06);
+		box-shadow: $box-shadow;
 		text-align: center;
 		padding: 30px 20px;
 		img{
@@ -28,6 +28,38 @@
 				color: white;
 				text-decoration: none;
 			}
+		}
+	}
+}
+
+.modal{
+	background-color: rgba(255,255,255,0.8);
+}
+
+.modal-content{
+	box-shadow: $box-shadow;
+	border-radius: 0;
+	border: 2px solid $pink;
+	.modal-header{
+		background-color: $mint-cream;
+		border-bottom: 2px solid $pink;
+	}
+	img{
+		display: block;
+		margin: 0 auto;
+	}
+	a{
+		font-size: 25px;
+		color: $maroon;
+		text-transform: uppercase;
+		border: 3px solid $maroon;
+		border-radius: 30px;
+		padding: 10px 30px;
+		transition: all 0.3s ease;
+		&:hover{
+			background-color: $maroon;
+			color: white;
+			text-decoration: none;
 		}
 	}
 }
