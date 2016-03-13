@@ -1,0 +1,29 @@
+body{
+	-webkit-font-smoothing: antialiased;
+}
+
+h1{
+	@include roboto-cond-reg;
+	font-size: 70px;
+	color: $dark-teal;
+}
+
+h2{
+	@include roboto-cond-light;
+	font-size: 70px;
+	color: $dark-teal;
+}
+
+h3{
+	@include roboto-reg-med;
+	font-size: 25px;
+	color: $maroon;
+	text-transform: uppercase;
+}
+
+p{
+	@include roboto-reg;
+	font-size: 18px;
+	line-height: 25px;
+	color: $dark-teal;
+}

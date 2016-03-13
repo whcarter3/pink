@@ -1,0 +1,13 @@
+{
+	"status":"success",
+	"data":{
+		"product":{
+			"id":1,
+			"title":"Great Pink Doughnut",
+			"copy":"<p>Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+			"next":2,
+			"prev":3,
+			"image":"http://screenpushdevelopment.com/pink_factory/doughnut.png"
+		}
+	}
+}

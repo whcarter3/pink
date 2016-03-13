@@ -1,0 +1,2 @@
+<h2>Pink Factory</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit aspernatur quam ipsam tempora quaerat culpa nihil at sunt maxime perferendis eveniet natus quibusdam exercitationem sed blanditiis eum molestiae, suscipit nostrum!</p>

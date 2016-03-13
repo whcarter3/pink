@@ -1,0 +1,35 @@
+.navbar-default{
+	background-color: white;
+	border-radius: 0;
+	min-height: 100px;
+	.navbar-nav>li>a{
+		color: $dark-teal;
+		@include roboto-cond-reg;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		font-size: 20px;
+		transition: all 0.3s ease;
+		&:hover{
+			color: $dark-teal;
+			&:after{
+				bottom: 20px;
+				opacity: 1;
+			}
+		}
+		&:after{
+			position: absolute;
+			bottom: 10px;
+			left: 7px;
+			content: '';
+			width: 90%;
+			height: 3px;
+			background-color: $maroon;
+			opacity: 0;
+			transition: all 0.3s ease;
+		}
+	}
+}
+
+.navbar-header{
+	min-height: 100px;
+}
