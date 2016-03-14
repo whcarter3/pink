@@ -7,7 +7,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a href="#" class="navbar-brand"><img src="img/pink-factory-logo.png" alt="Pink Factory"></a>
+			<a href="#slider" class="navbar-brand"><img src="img/pink-factory-logo.png" alt="Pink Factory"></a>
 		</div>
 		<div class="collapse navbar-collapse" id="pink-factory-nav">
 			<ul class="nav navbar-nav navbar-right">

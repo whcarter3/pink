@@ -1,0 +1,17 @@
+footer{
+	background-color: $pink;
+	height: 200px;
+	padding: 40px;
+	.nav{
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		a{
+			color: white;
+		}
+	}
+	p{
+		text-align: center;
+		color: white;
+	}
+}
