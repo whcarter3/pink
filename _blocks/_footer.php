@@ -3,10 +3,10 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<ul class="nav navbar-nav">
-					<li><a href="#">Pink Factory</a></li>
-					<li><a href="#">Great Pink Muffin</a></li>
-					<li><a href="#">Products</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#pink-factory">Pink Factory</a></li>
+					<li><a href="#great-pink-muffin">Great Pink Muffin</a></li>
+					<li><a href="#products">Products</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</div>
 			<div class="col-sm-12">

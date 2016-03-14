@@ -1,7 +1,29 @@
 #contact{
 	border-top: 3px solid $pink;
 	padding: 100px 0;
-	input:nth-child(first){
-		width: 100%;
+	.form-group{
+		position: relative;
+		input, textarea{
+			background-color: $mint-cream;
+			border: none;
+		}
+		textarea{
+			border-radius: 10px;
+		}
+		input{
+			height: 50px;
+			width: 100%;
+			border-radius: 30px;
+		}
+		input[type=submit]{
+			position: absolute;
+			right: 0;
+			width: 20%;
+			top: 0;
+			border: 2px solid $maroon;
+			color: $maroon;
+			@include roboto-reg-med;
+			text-transform: uppercase;
+		}
 	}
 }

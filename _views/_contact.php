@@ -8,9 +8,13 @@
 			<div class="col-sm-6">
 				<h2>Contact</h2>
 				<form action="post">
-					<input type="text">
-					<input type="text">
-					<input type="submit">
+					<div class="form-group">
+						<textarea name="" id="" cols="30" rows="5" style="width: 100%;"></textarea>
+					</div>
+					<div class="form-group">
+						<input type="text">
+						<input type="submit">
+					</div>
 				</form>
 			</div>
 		</div>

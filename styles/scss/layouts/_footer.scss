@@ -8,6 +8,10 @@ footer{
 		transform: translateX(-50%);
 		a{
 			color: white;
+			&:hover, &:active, &:focus{
+				background-color: $pink;
+				color: $maroon;
+			}
 		}
 	}
 	p{
