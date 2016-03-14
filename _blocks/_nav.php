@@ -11,10 +11,10 @@
 		</div>
 		<div class="collapse navbar-collapse" id="pink-factory-nav">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">Pink Factory</a></li>
-				<li><a href="#">Great Pink Muffin</a></li>
-				<li><a href="#">Products</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#pink-factory">Pink Factory</a></li>
+				<li><a href="#great-pink-muffin">Great Pink Muffin</a></li>
+				<li><a href="#products">Products</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</div>
 	</div>

@@ -1,3 +1,30 @@
 #slider{
 	padding-top: 100px;
+	img{
+		max-width: none;
+		width: 100%
+	}
+	.carousel-indicators li{
+		background-color: white;
+		height: 25px;
+		width: 25px;
+		margin: 0 15px;
+		border-radius: 100%;
+		&.active{
+			background-color: $pink;
+			border-color: $pink;
+		}
+	}
+	h1{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		z-index: 100;
+		color: white;
+		.pink-bg{
+			background-color: $pink;
+		}
+	}
 }

@@ -1,0 +1,36 @@
+#great-pink-muffin{
+	.col-sm-6{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.right-section{
+		background-color: $pink;
+		padding: 40px 80px;
+		text-align: center;
+		h2, p{
+			color: white;
+		}
+		h2{
+			margin-top: 0;
+			padding: 20px;
+		}
+		a{
+			@include roboto-reg-med;
+			font-size: 25px;
+			color: white;
+			text-transform: uppercase;
+			border: 3px solid white;
+			border-radius: 30px;
+			padding: 10px 30px;
+			transition: all 0.3s ease;
+			display: inline-block;
+			margin: 40px;
+			&:hover{
+				background-color: white;
+				color: $pink;
+				text-decoration: none;
+			}
+		}
+	}
+
+}
