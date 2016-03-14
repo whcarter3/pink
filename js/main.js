@@ -16,6 +16,9 @@ $(document).ready(function(){
 				productModal.find('.ajax-title').html('<h3 class="text-center">' + productTitle + '</h3>');
 				productModal.find('.ajax-copy').empty().append(productCopy).css({'text-align': 'center', 'padding-bottom': '20px'});
 				productModal.modal('show');
+			},
+			error: function(jqXHR, textStatus, errorThrown){
+				console.log(textStatus, errorThrown);
 			}
 		})
 	});

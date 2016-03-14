@@ -24,6 +24,11 @@
 			color: $maroon;
 			@include roboto-reg-med;
 			text-transform: uppercase;
+			transition: all 0.3 ease;
+			&:hover{
+				background-color: $maroon;
+				color: white;
+			}
 		}
 	}
 }
